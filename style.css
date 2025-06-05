@@ -1,0 +1,65 @@
+body {
+    font-family: 'Fredoka One', cursive, Arial, sans-serif; /* Exemplo de fonte do Google Fonts */
+    background-color: #F2E6CE;
+    margin: 0;
+    padding: 10px;
+}
+
+header {
+    background-color: #FFF; /* Fundo mais claro para o header */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Cantos arredondados */
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #FF5722; /* Um laranja vibrante */
+    font-size: 2.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4CAF50; /* Um verde mais alegre */
+    padding: 10px 15px; /* Mais padding para os links */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transição suave na cor */
+}
+
+nav a:hover {
+    color: #FFC107; /* Um amarelo para o hover */
+    text-decoration: none; /* Remove o underline padrão */
+}
+
+main section {
+    background-color: #FFF;
+    margin: 20px auto; /* Centraliza as seções e adiciona margem */
+    padding: 30px;
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limita a largura do conteúdo para melhor leitura */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #333;
+    color: #EEE;
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%; /* Imagens responsivas */
+    height: auto; /* Mantém a proporção */
+    border-radius: 8px; /* Cantos arredondados para imagens */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para imagens */
+}
+
+.imagem-centralizada {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Para manter responsivo */
+    height: auto;
+}
